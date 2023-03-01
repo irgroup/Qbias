@@ -17,8 +17,8 @@ In total, 318,185 suggestions have been retrieved from Google and 353,484 from B
 The file contains a "root_term" column based on the AllSides topic tags. The "query_input" column contains the search term submitted to the search engine ("search_engine"). "query_suggestion"	and "rank" represent the search query suggestions at the respective positions returned by the search engines at the given time of search "datetime". We scraped our data from a US server saved in "location".
 
 ## allSidesScraper.ipynb
-The [AllSides platform](https://www.allsides.com/headline-roundups) and the provides news is a frequently used source for high quality labeled biased news. We want to provide an easy means of retrieving the news and all corresponding information. Similar datasets have previously been produced. However, compared to the currently most recent available versions, our version includes more than 20 percent of additional articles. Furthermore, for many tasks, especially in the news domain, it is relevant to have the most recent documents available.
-Thus, we provide a Python-based scraper, that scrapes all available AllSides news articles and gathers available information.
+The [AllSides platform](https://www.allsides.com/headline-roundups) and the provides news is a frequently used source for high quality labeled biased news. We want to provide an easy means of retrieving the news and all corresponding information.For many tasks, especially in the news domain, it is relevant to have the most recent documents available.
+Thus, we provide this Python-based scraper, that scrapes all available AllSides news articles and gathers available information.
 By providing the scraper we facilitate access to a recent version of the dataset for other researchers.
 
-To run the scraper, run the jupyter notebook "AllsidesDataCrawl.ipynb", it will retreive all available documents automatically. The data will be exported as "data_allsides.csv". You will find more detailed documentation on how to run and configure the scraper in the jupyter notebook.
+To run the scraper, run the jupyter notebook "AllsidesDataCrawl.ipynb", it will retreive all available documents automatically. The data will be exported as "allsides_news_complete.csv". You will find more detailed documentation on how to run and configure the scraper in the jupyter notebook.
