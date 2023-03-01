@@ -16,7 +16,7 @@ In total, 318,185 suggestions have been retrieved from Google and 353,484 from B
 
 The file contains a "root_term" column based on the AllSides topic tags. The "query_input" column contains the search term submitted to the search engine ("search_engine"). "query_suggestion"	and "rank" represent the search query suggestions at the respective positions returned by the search engines at the given time of search "datetime". We scraped our data from a US server saved in "location".
 
-## allSidesScraper.ipynb
+## AllSides Scraper
 The [AllSides platform](https://www.allsides.com/headline-roundups) and the provides news is a frequently used source for high quality labeled biased news. We want to provide an easy means of retrieving the news and all corresponding information.For many tasks, especially in the news domain, it is relevant to have the most recent documents available.
 Thus, we provide this Python-based scraper, that scrapes all available AllSides news articles and gathers available information.
 By providing the scraper we facilitate access to a recent version of the dataset for other researchers.
