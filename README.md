@@ -21,4 +21,4 @@ The [AllSides platform](https://www.allsides.com/headline-roundups) and the prov
 Thus, we provide this Python-based scraper, that scrapes all available AllSides news articles and gathers available information.
 By providing the scraper we facilitate access to a recent version of the dataset for other researchers.
 
-To run the scraper, run the jupyter notebook "AllsidesDataCrawl.ipynb", it will retreive all available documents automatically. The data will be exported as "allsides_news_complete.csv". You will find more detailed documentation on how to run and configure the scraper in the jupyter notebook.
+To use the scraper, run the jupyter notebook "AllsidesDataCrawl.ipynb", it will retreive all available documents automatically. You will need to download a version of the Chromedriver that works with your chrome browser and move it to the "driver" subfolder. The data will be exported as "allsides_news_complete.csv". You will find more detailed documentation on how to run and configure the scraper in the jupyter notebook.
